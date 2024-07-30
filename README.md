@@ -4,6 +4,10 @@ Supports:
 - [ZeRO](https://www.microsoft.com/en-us/research/blog/zero-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/) stages.
 - Providing HuggingFace hub repository id (example: meta-llama/Meta-Llama-3-8B)
 
+### TODO:
+- Add LoRA/QLoRA for finetuning purposes
+- Make UI with gradio/streamlit and add sliders
+- Support for reversing the problem: given GPUs how large of a model can I train
 
 ## Getting Started
 **In case you only use with your own estimations and numbers and no HuggingFace config is given, the prerequisities and installation can be skipped.**
